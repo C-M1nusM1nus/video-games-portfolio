@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Video Game Design & AI Evaluation Portfolio</title>
+  <title>Video Game Design & AI Game Evaluation Portfolio</title>
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      line-height: 1.6;
+      line-height: 1.7;
       margin: 0;
       padding: 0;
       background: #0f0f14;
@@ -16,16 +16,16 @@
     header, section {
       max-width: 900px;
       margin: auto;
-      padding: 48px 24px;
+      padding: 56px 24px;
     }
     header {
       border-bottom: 1px solid #2a2a3a;
     }
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
       color: #ffffff;
     }
     h2 {
-      margin-top: 64px;
+      margin-top: 72px;
     }
     p {
       color: #cfcfe8;
@@ -39,7 +39,7 @@
     }
     .divider {
       border-top: 1px solid #2a2a3a;
-      margin: 64px 0;
+      margin: 72px 0;
     }
   </style>
 </head>
@@ -51,68 +51,96 @@
     Portfolio focused on gameplay analysis, systems critique, and AI-generated game evaluation.
   </p>
   <p>
-    I specialize in evaluating video game mechanics, player experience, and design systems with
-    an emphasis on improving AI-generated game content through structured feedback and iteration.
+    This portfolio demonstrates my approach to evaluating video games through the lens of
+    mechanics, player experience, and systemic design. The analyses emphasize identifying where
+    games succeed, where they fall short, and how structured feedback can guide both human and
+    AI-driven iteration.
   </p>
 </header>
 
 <section>
-  <h2>Project 1: AI-Generated Games — Evaluation & Judgment</h2>
+  <h2>AI-Generated Games: Evaluation & Judgment</h2>
 
   <h3>Slipstream Runner</h3>
-  <p><em>Momentum-Based Platformer — Functional but in Need of Refinement</em></p>
+  <p><em>Momentum-Based Platformer — Mechanically Sound, Experientially Under-Tuned</em></p>
 
   <p>
-    Slipstream Runner is a technically functional momentum-based platformer that successfully
-    implements its core mechanics and progression structure. The game communicates its objectives
-    clearly and introduces mechanics gradually, creating a smooth onboarding experience.
+    Slipstream Runner succeeds in establishing a clear gameplay identity centered on speed and
+    flow. Players immediately understand their objective, and the game introduces mechanics
+    incrementally, reducing onboarding friction. At a structural level, the game functions
+    exactly as intended.
   </p>
 
-  <h4>Strengths</h4>
-  <ul>
-    <li>Intuitive controls and clear objectives</li>
-    <li>Gradual introduction of mechanics</li>
-    <li>Predictable and readable difficulty progression</li>
-  </ul>
-
-  <h4>Identified Issues</h4>
-  <ul>
-    <li>Movement feels overly slippery, reducing precision and player confidence</li>
-    <li>Momentum feedback relies on aggressive background color changes that distract from gameplay</li>
-  </ul>
-
-  <h4>Design Takeaways</h4>
+  <h4>Movement & Game Feel</h4>
   <p>
-    Slipstream Runner demonstrates a common pattern in AI-generated games: the design works as
-    intended but lacks the subtle tuning required to elevate game feel. Refining friction,
-    air control, and visual feedback would significantly improve the experience without major
-    structural changes.
+    While the game emphasizes momentum, the underlying movement tuning results in a slippery,
+    low-friction feel that limits precision. Players often feel as though they are reacting to
+    motion rather than actively controlling it. This undermines confidence during high-speed
+    sequences and reduces the sense of mastery that momentum-based platformers rely on.
+  </p>
+
+  <h4>Mechanic Interaction</h4>
+  <p>
+    Core mechanics—jumping, dashing, and wall interactions—exist alongside one another but do not
+    strongly reinforce each other. As a result, movement options feel additive rather than
+    synergistic. Players can succeed without deeply engaging with the full movement toolkit,
+    which lowers the skill ceiling.
+  </p>
+
+  <h4>Feedback & Readability</h4>
+  <p>
+    Momentum feedback is clearly communicated through dramatic background color changes. While
+    effective in signaling speed, this approach becomes visually distracting during extended play
+    sessions and occasionally interferes with level readability. Subtler indicators would better
+    support sustained engagement.
+  </p>
+
+  <h4>Overall Assessment</h4>
+  <p>
+    Slipstream Runner exemplifies a common trait of AI-generated designs: the mechanics function
+    correctly, progression is sensible, and the game is playable, yet fine-grained tuning is
+    missing. Focused adjustments to movement physics and feedback systems would significantly
+    elevate the player experience without altering the game’s structure.
   </p>
 
   <div class="divider"></div>
 
   <h3>Signal Lost</h3>
-  <p><em>Indie-Scale Puzzle Game — Cohesive and Well-Designed</em></p>
+  <p><em>Indie-Scale Puzzle Game — Cohesive, Polished, and Extensible</em></p>
 
   <p>
-    Signal Lost is a polished puzzle game that effectively balances clarity, challenge, and
-    engagement. Its mechanics are intuitive, and its progression introduces complexity gradually
-    without overwhelming the player.
+    Signal Lost presents a tightly scoped puzzle experience that feels complete and well-considered.
+    The game establishes a clear objective immediately and maintains consistent rules throughout,
+    allowing players to focus on problem-solving rather than deciphering mechanics.
   </p>
 
-  <h4>Strengths</h4>
-  <ul>
-    <li>Clear core objective and intuitive controls</li>
-    <li>Logical and fair difficulty progression</li>
-    <li>Audio feedback that enhances interactivity</li>
-    <li>Strong sense of completeness despite small scope</li>
-  </ul>
-
-  <h4>Design Takeaways</h4>
+  <h4>Core Loop & Puzzle Design</h4>
   <p>
-    Signal Lost demonstrates how focused mechanics, strong feedback systems, and thoughtful
-    progression can produce a satisfying experience. Its design foundation is robust and easily
-    extensible through additional content or mechanics.
+    The rotation-based signal connection mechanic provides satisfying cause-and-effect feedback.
+    Each player action produces an immediate and understandable result, reinforcing learning and
+    reducing trial-and-error frustration.
+  </p>
+
+  <h4>Progression & Difficulty</h4>
+  <p>
+    New mechanics are introduced gradually and in isolation before being combined, allowing
+    players to build confidence organically. Difficulty increases through logical complexity
+    rather than arbitrary constraints, which players frequently identify as a marker of fair
+    puzzle design.
+  </p>
+
+  <h4>Feedback & Polish</h4>
+  <p>
+    Audio cues enhance interactivity and reinforce player actions without becoming intrusive.
+    Visual clarity ensures that active and inactive signal paths are always readable, contributing
+    to a smooth and engaging experience.
+  </p>
+
+  <h4>Overall Assessment</h4>
+  <p>
+    Signal Lost demonstrates how a focused design, consistent feedback, and thoughtful progression
+    can produce a compelling experience even at a small scale. Its systems are robust and readily
+    extensible, making it a strong example of successful indie game design.
   </p>
 </section>
 
@@ -121,58 +149,62 @@
 
   <h3>Minecraft</h3>
   <p>
-    Minecraft is widely praised for its unmatched player freedom and emergent gameplay. Simple
-    mechanics combine to create near-infinite creative possibilities, supported by a strong
-    modding ecosystem.
+    Minecraft’s enduring popularity stems from its unparalleled player freedom and emergent
+    gameplay. Simple mechanics—block placement, crafting, and environmental interaction—combine
+    to create complex systems that scale with player creativity.
   </p>
   <p>
-    Common critiques focus on weak structured progression after early milestones and relatively
-    shallow combat systems.
+    Community feedback frequently highlights the tradeoff between freedom and structure. While
+    the lack of strict progression empowers creativity, many players report a loss of motivation
+    once early goals are completed. Combat systems are often cited as functional but shallow,
+    lacking the depth found in the game’s building mechanics.
   </p>
 
   <h3>Undertale</h3>
   <p>
-    Undertale is celebrated for its emotionally impactful narrative and its integration of
-    storytelling into gameplay mechanics. Players consistently cite its characters and music
-    as defining strengths.
+    Undertale is widely praised for its narrative ambition and its integration of storytelling
+    into core mechanics. Player choices feel meaningful, and the game’s combat system reinforces
+    its themes of empathy and consequence.
   </p>
   <p>
-    Some players note limited replay appeal once major narrative paths are completed and find
-    its tonal style polarizing.
+    Some players note limited replay appeal once major narrative paths are explored, and the
+    game’s tonal style—particularly its humor—can be polarizing. Nevertheless, its emotional
+    impact remains a defining strength.
   </p>
 
   <h3>Ninja Gaiden (NES)</h3>
   <p>
-    Ninja Gaiden is recognized for its high skill ceiling and responsive controls. Mastery is
-    rewarding, and its cinematic presentation was groundbreaking for its era.
+    Ninja Gaiden is remembered for its demanding difficulty and responsive controls. Mastery
+    requires precise timing, pattern recognition, and disciplined execution.
   </p>
   <p>
-    Community critiques frequently highlight punishing difficulty spikes and limited recovery
-    from mistakes, which can lead to frustration.
+    Community critiques often focus on sudden enemy spawns and harsh knockback mechanics, which
+    can feel punishing rather than instructive. These elements illustrate the fine balance
+    between rewarding challenge and player frustration.
   </p>
 
   <h3>Fortnite</h3>
   <p>
-    Fortnite’s build-and-combat system differentiates it from other shooters and rewards high
-    mechanical skill. Ongoing content updates sustain long-term engagement.
+    Fortnite’s build-and-combat system fundamentally differentiates it from other shooters,
+    creating a high skill ceiling that rewards mechanical mastery. Frequent updates and live
+    events sustain long-term engagement.
   </p>
   <p>
-    Players often cite the growing skill gap and rapidly shifting meta as barriers to casual
-    enjoyment.
+    Players frequently cite the widening skill gap and rapidly changing meta as barriers to
+    casual enjoyment. These challenges reflect broader tensions inherent in live-service design.
   </p>
 </section>
 
 <section>
   <h2>AI-Specific Design Insight</h2>
   <p>
-    Across both AI-generated and human-designed games, a consistent pattern emerges:
-    technical correctness alone does not guarantee player engagement. Subtle tuning, feedback
-    clarity, and system cohesion are essential to transforming functional designs into compelling
-    experiences.
+    Across both AI-generated and human-designed games, a consistent pattern emerges: technical
+    correctness alone does not guarantee engagement. Subtle tuning, feedback clarity, and system
+    cohesion are essential to transforming functional designs into compelling experiences.
   </p>
   <p>
-    These evaluations demonstrate how expert judgment and structured critique can guide AI
-    systems toward producing more engaging, balanced, and innovative video game content.
+    These evaluations demonstrate how expert judgment and structured critique can guide AI systems
+    toward producing more engaging, balanced, and innovative video game content.
   </p>
 </section>
 
