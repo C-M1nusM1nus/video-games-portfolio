@@ -41,6 +41,33 @@
       border-top: 1px solid #2a2a3a;
       margin: 72px 0;
     }
+    .game {
+      margin-top: 48px;
+    }
+
+    .game-header {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .game img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #2a2a3a;
+      background: #000;
+    }
+
+    .game-title h3 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 700px) {
+      .game-header {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
